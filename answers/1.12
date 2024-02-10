@@ -1,0 +1,1 @@
+ const promiseOfSomeJsonData = fetch('http://localhost:5000/').then(r => r.json()).then(data => {
