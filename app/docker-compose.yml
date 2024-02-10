@@ -1,0 +1,9 @@
+version: '3'
+services:
+  my-service:
+    image: container
+    container_name: backend
+    ports:
+      - "5000:5000"
+    environment:
+      - CURRENT_ENVIRONMENT=development
